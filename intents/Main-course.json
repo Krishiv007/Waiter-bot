@@ -1,0 +1,90 @@
+{
+  "id": "c7105723-0860-49ce-b64c-e4f44f68b671",
+  "parentId": "33d16554-e4f4-4a42-80f4-28e32310c09d",
+  "rootParentId": "33d16554-e4f4-4a42-80f4-28e32310c09d",
+  "name": "Main-course",
+  "auto": true,
+  "contexts": [
+    "Await_choice",
+    "Welcome-followup",
+    "Welcome-followup-2"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Welcome.Welcome-custom",
+      "affectedContexts": [
+        {
+          "name": "Await_choice",
+          "lifespan": 5
+        },
+        {
+          "name": "Welcome-followup",
+          "lifespan": 5
+        },
+        {
+          "name": "Welcome-followup-2",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Please choose any one of the options from below.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Pizza"
+            },
+            {
+              "title": "Burgers"
+            },
+            {
+              "title": "Pasta"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

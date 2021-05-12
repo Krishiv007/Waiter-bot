@@ -1,0 +1,54 @@
+{
+  "id": "33d16554-e4f4-4a42-80f4-28e32310c09d",
+  "name": "Welcome",
+  "auto": true,
+  "contexts": [
+    "Await_choice"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "Await_choice",
+          "lifespan": 5
+        },
+        {
+          "name": "Welcome-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "Welcome-followup-2",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi! Welcome to KG\u0027s Diner! Press - 1. for starters, 2. for beverages, 3. for main-course and 4. for desserts."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

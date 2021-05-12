@@ -1,0 +1,80 @@
+[
+  {
+    "id": "0fb31001-c92e-47a0-b180-8e112f08088f",
+    "data": [
+      {
+        "text": "Bread with dips",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e6bc4b68-456b-4183-80af-1c1945254fc1",
+    "data": [
+      {
+        "text": "Nachos",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d8c71de2-fe15-475b-98c6-df4de3b65ff0",
+    "data": [
+      {
+        "text": "French fries",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2fcdb23c-f643-479a-9044-a95cc818f4fc",
+    "data": [
+      {
+        "text": "Pasta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a149123e-bedc-4682-8ec9-bd2975ec5ba1",
+    "data": [
+      {
+        "text": "Burgers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9135d4a7-7519-4bf9-bd4a-c298e6dfdad6",
+    "data": [
+      {
+        "text": "Pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
